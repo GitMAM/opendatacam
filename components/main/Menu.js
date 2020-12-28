@@ -58,7 +58,7 @@ class Menu extends Component {
             />
           </button>
           <div className="p-5 w-full overflow-y-scroll">
-            <h3 className="mb-4 text-2xl font-bold"><a className="mt-2" href="https://github.com/opendatacam/opendatacam" target="_blank">OpenDataCam</a></h3>
+            <h3 className="mb-4 text-2xl font-bold"><a className="mt-2" href="Aeyetechlabs.com" target="_blank">Aeyetech</a></h3>
             <Toggle
               label="Counter"
               description="Count objects on active areas"
@@ -119,7 +119,7 @@ class Menu extends Component {
               <div className="flex flex-col">
                   <p>Version {this.props.version}</p>
                   <a className="mt-2" target="_blank" href="/api/doc">API documentation</a>
-                  <a className="mt-2" href="https://github.com/opendatacam/opendatacam" target="_blank">About</a>
+                  <a className="mt-2" href="aeyetechlabs.com" target="_blank">About</a>
               </div>
           </div>
         </div>
