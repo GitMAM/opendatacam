@@ -43,7 +43,7 @@ class UIControls extends Component {
                 className={`btn btn-default rounded-l ${this.props.mode === MODE.LIVEVIEW ? 'btn-default--active' : ''} ${!this.props.uiSettings.get('pathfinderEnabled') && !this.props.uiSettings.get('counterEnabled') ? 'rounded-r': ''}`}
                 onClick={() => this.props.dispatch(setMode(MODE.LIVEVIEW))}
               >
-                Live view
+                Live dskljdffkjsdkfj
               </button>
               {this.props.uiSettings.get('counterEnabled') &&
               (!this.props.recordingStatus.isRecording || this.props.isAtLeastOneCountingAreasDefined) &&
